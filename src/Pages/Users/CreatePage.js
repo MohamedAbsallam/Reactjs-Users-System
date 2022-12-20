@@ -31,7 +31,7 @@ class CreatePage extends Component{
     render() {
         return(
             <div>
-                <h2>Create Page..</h2>
+                <h2 className="display-4">Create Page..</h2>
                 <UsersForm values={this.state.user} onSubmit={this.createUser}/>
             </div>
         )

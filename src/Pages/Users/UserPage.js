@@ -25,7 +25,7 @@ class UserPage extends Component{
     render() {
         return(
             <div>
-                <h2>User Page!</h2>
+                <h2 className="display-4">User Page!</h2>
                     <ViewUser user={this.state.user}/>
             </div>
         )

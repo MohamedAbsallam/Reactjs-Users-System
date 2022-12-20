@@ -41,13 +41,13 @@ class UsersPage extends Component{
     render() {
         return(
             <div>
-                <h2>Users Page!</h2>
+                <h2 className="display-4">Users Page!</h2>
                 <ul>
                     {this.state.users.map(user => 
                     <li key={user.id}>{user.name} {' '}
                     <Link to={'/users/'+user.id}>View</Link> {' '}
                     <Link to={'/users/edit/'+user.id}>Edit</Link> {' '}
-                    <button onClick={() => this.deleteUser(user)}>Delete</button>
+                    <button onClick={() => this.deleteUser(user)} className='btn btn-light btn-sm'>Delete</button>
                     </li>)}
                 </ul>
             </div>

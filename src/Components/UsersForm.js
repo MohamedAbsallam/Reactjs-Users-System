@@ -18,17 +18,23 @@ export default function UsersForm(props) {
                 validationSchema={schema}
                 render={props => {
                     return(
+                        <div className='container'>
                         <Form>
-                            <label>Name: </label>
-                            <Field type='text' name='name'/>
+                            <div className='mb-3'>
+                            <label className="form-label">Name: </label>
+                            <Field className='form-control' type='text' name='name'/>
                             <ErrorMessage name='name'/> <br/>
+                            </div>
 
-                            <label>Email: </label>
-                            <Field type='email' name='email'/>
+                            <div className='mb-3'>
+                            <label className="form-label">Email: </label>
+                            <Field className='form-control' type='email' name='email'/>
                             <ErrorMessage name='email'/> <br/>
+                            </div>
 
-                            <button type='submit'>Send</button>
+                            <button className="btn btn-primary"type='submit'>Send</button>
                         </Form>
+                        </div>
                     )
                 }}
             />

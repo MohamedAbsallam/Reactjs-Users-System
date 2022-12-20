@@ -14,7 +14,7 @@ export default function NotFound(){
 
     return(
         <div>
-            <h2>404 NotFound!</h2>
+            <h2 className="display-2">404 NotFound!</h2>
             <p>No Results Match for {Location.pathname}</p>
         </div>
     )

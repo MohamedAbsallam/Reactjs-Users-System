@@ -39,7 +39,7 @@ class EditPage extends Component{
     render() {
         return(
             <div>
-                <h2>Edit Page..</h2>
+                <h2 className="display-4">Edit Page..</h2>
                 <UsersForm values={this.state.user} onSubmit={this.updateUser}/>
             </div>
         )
