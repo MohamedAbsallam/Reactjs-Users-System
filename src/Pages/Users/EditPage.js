@@ -13,7 +13,7 @@ class EditPage extends Component{
 
     componentDidMount = () => {
         // @todo: replace this code to useParams()
-        // if react-router-dom > 0.5
+        // if react-router-dom > 5.0
         const userID = this.props.match.params.id
         getUser(userID).then(res => {
             this.setState({
@@ -29,7 +29,7 @@ class EditPage extends Component{
         updateUser(userID, values).then(() => {
             alert('User Updated SuccessFully!')
         // @todo: replace this code to useNavigate()
-        // if react-router-dom > 0.5 
+        // if react-router-dom > 5.0 
             this.props.history.push('/users')
         }).catch(err => {
             alert('Error accourding Update User!')
