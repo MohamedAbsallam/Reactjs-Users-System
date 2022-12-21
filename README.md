@@ -1,11 +1,11 @@
 # Users System Manegment Application by Reactjs
 
-Simple React Application .. You can easily use to
-1.Get Users
-1.Get User
-1.Create User
-1.Update User
-1.delete User
+Simple React Application, You can easily use to
+1. Get Users
+1. Get User
+1. Create User
+1. Update User
+1. delete User
 
 Project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
