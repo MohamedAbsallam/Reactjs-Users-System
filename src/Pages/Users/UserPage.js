@@ -11,7 +11,7 @@ class UserPage extends Component{
 
     componentDidMount = () => {
         // @todo: replace this code to useParams()
-        // if react-router-dom > 0.5 
+        // if react-router-dom > 5.0 
         const userID = this.props.match.params.id
         getUser(userID).then(res => {
             this.setState({
