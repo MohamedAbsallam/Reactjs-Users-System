@@ -29,7 +29,7 @@ class EditPage extends Component{
         updateUser(userID, values).then(() => {
             alert('User Updated SuccessFully!')
         // @todo: replace this code to useNavigate()
-        // if react-router-dom > 5.0 
+        // if react-router-dom > 5.0
             this.props.history.push('/users')
         }).catch(err => {
             alert('Error accourding Update User!')
