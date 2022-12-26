@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {getUser} from '../../API/usersModel'
 import ViewUser from '../../Components/ViewUser'
 
-
 class UserPage extends Component{
     
     state = {
